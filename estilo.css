@@ -51,7 +51,7 @@ nav {
 }
 
 .nav-links a {
-    color: rgb(249, 247, 245);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: 500;
     font-size: 0.95rem;
@@ -103,7 +103,7 @@ nav {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    transition: background-color 0.2s ease-in-out;
+    transition:  0.2s ease-in-out;
 }
 
 .hamburger-inner::before,
@@ -112,7 +112,7 @@ nav {
     position: absolute;
     width: 30px;
     height: 2px;
-    background-color:rgb(252, 252, 252);
+    background-color:rgb(255, 253, 253);
     transition: all 0.3s ease;
 }
 
@@ -183,7 +183,7 @@ nav {
 
 /* Transição para botões e links */
 .cta-button, .nav-links a {
-    transition: background 0.3s ease, transform 0.3s ease;
+    transition:  0.3s ease, transform 0.3s ease;
 }
 
 .cta-button:hover, .nav-links a:hover {
@@ -462,7 +462,7 @@ footer {
 }
 
 button {
-    background-color: #ffffff;
+   
     color: #0a0a23;
     padding: 0.5rem 1rem;
     border: none;
@@ -471,7 +471,7 @@ button {
 }
 
 button:hover {
-    background-color: #f0f0f0;
+    
 }
 
 .social-icons {
